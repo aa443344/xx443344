@@ -53,10 +53,8 @@ def get_weather(region):
     weather_url = "https://devapi.qweather.com/v7/weather/now?location={}&key={}".format(location_id, key)
     response = get(weather_url, headers=headers).json()
     # 天气
-    weather = weatherinfo["weather"] 
-    # 最高气温
-    weather = weatherinfo["weather"]
-    # 最低气温
+    weather = response["now"]["text"]
+    # 当前温度
     temp = response["now"]["temp"] + u"\N{DEGREE SIGN}" + "C"
     # 风向
     wind_dir = response["now"]["windDir"]

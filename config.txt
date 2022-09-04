@@ -18,7 +18,7 @@
 "birthday1": {"name": "臭屁驼", "birthday": "r1998-05-01"},
 
 # 生日2
-"birthday2": {"name": "自闭华", "birthday": "1994-03-24"},
+"birthday2": {"name": "自闭华", "birthday": "r1994-03-24"},
 # 在一起的日子，格式同上，暂不不支持农历
 
 "love_date": "2018-08-07",
